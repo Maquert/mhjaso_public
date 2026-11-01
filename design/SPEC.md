@@ -33,7 +33,7 @@ First release: `/turnera/`, `/turnera/support/`, `/turnera/privacy/`. Products a
 - Header: site name (links to `/`) and a primary nav (Products, then one link per product). Single row; wraps on narrow screens.
 - Breadcrumb on product, support and privacy pages: Products / Product / Page.
 - Index: H1, lead paragraph, product card grid (1 column below 48 rem, 2 columns from 48 rem).
-- Product page: H1, tagline, Support and Privacy Policy buttons, icon (beside text from 48 rem, hidden-order below), screenshots section, resources list.
+- Product page: H1, tagline, Support and Privacy Policy buttons, icon (beside the text from 48 rem, below it on narrow screens), screenshots section, resources list.
 - Support and privacy pages: H1, content sections as H2, contact block.
 - Footer: links to the product page, support and privacy of each product, then copyright line.
 
