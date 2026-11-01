@@ -22,3 +22,11 @@ h1{font-size:clamp(2rem,6vw,3rem);line-height:1.15;margin:1.5rem 0 .75rem}h2{fon
 ul.plain{padding-left:1.25rem}
 footer{margin-top:3rem;padding-top:1.5rem;padding-bottom:2rem;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem}footer ul{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;list-style:none;padding:0;margin:0 0 .5rem}
 @media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+.icon{background:none}
+.icon img,img.app-icon{display:block;width:100%;height:100%;border-radius:22.37%;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.card .icon{width:4.5rem;height:4.5rem}
+.app-head{display:flex;align-items:center;gap:1rem;margin:1.5rem 0 .75rem}.app-head img{width:4rem;height:4rem;border-radius:22.37%;box-shadow:0 1px 3px rgba(0,0,0,.25)}.app-head h1{margin:0}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin:1rem 0}.shots img{width:100%;height:auto;border-radius:12px;border:1px solid var(--border)}
+@media(max-width:36rem){.shots{grid-template-columns:repeat(3,70%);overflow-x:auto;scroll-snap-type:x mandatory}.shots img{scroll-snap-align:center}}
+.ext{font-size:.85rem;color:var(--muted);margin-top:.5rem!important}
+.feature-list{padding-left:1.25rem}.feature-list li{margin:.35rem 0}
