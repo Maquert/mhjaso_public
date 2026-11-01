@@ -20,9 +20,9 @@ Task manager designed to work with AI agents. Its website is hosted separately f
 
 <img src="assets/screenshots/ecelyo.png" alt="Ecelyo Mission Control on Mac listing tactics in progress" width="520">
 
-- [Website](https://ecelyo.netlify.app/)
-- [Support](https://ecelyo.netlify.app/support.html)
-- [Privacy Policy](https://ecelyo.netlify.app/privacy.html)
+- [Website](https://www.ecelyo.com/)
+- [Support](https://www.ecelyo.com/support.html)
+- [Privacy Policy](https://www.ecelyo.com/privacy.html)
 
 ## Site
 
