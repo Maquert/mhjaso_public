@@ -16,13 +16,13 @@ Shift calendar for iPhone, iPad and Mac.
 
 ## Ecelyo
 
-Task manager designed to work with AI agents. Its pages are hosted in the separate [Ecelyo_public](https://github.com/Maquert/Ecelyo_public) repository.
+Task manager designed to work with AI agents. Its website is hosted separately from this site.
 
 <img src="assets/screenshots/ecelyo.png" alt="Ecelyo Mission Control on Mac listing tactics in progress" width="520">
 
-- [Website](https://maquert.github.io/Ecelyo_public/)
-- [Support](https://maquert.github.io/Ecelyo_public/support.html)
-- [Privacy Policy](https://maquert.github.io/Ecelyo_public/privacy.html)
+- [Website](https://ecelyo.netlify.app/)
+- [Support](https://ecelyo.netlify.app/support.html)
+- [Privacy Policy](https://ecelyo.netlify.app/privacy.html)
 
 ## Site
 
