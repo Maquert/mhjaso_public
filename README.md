@@ -1,6 +1,6 @@
-# mhjaso_public
+# mhjaso
 
-Public information for the apps by Miguel Hernández Jaso, published as a GitHub Pages site at <https://maquert.github.io/mhjaso_public/>.
+Public information for the apps by Miguel Hernández Jaso, published as the **mhjaso** website at <https://maquert.github.io/mhjaso_public/> (this repository is `mhjaso_public`).
 
 This README is the index of every public page, grouped by app. Links to pages in this repository go live when the site is published.
 
