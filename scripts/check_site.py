@@ -2,14 +2,14 @@
 """Check the published site: local links resolve, required pages exist, and no secrets leak.
 
 Usage: python3 scripts/check_site.py [--live]
-  --live  also request every https://maquert.github.io/ URL in the README and site pages.
+  --live  also request every https://mhjaso.com/ URL in the README and site pages.
 """
 import re, sys, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = "https://maquert.github.io/mhjaso_public/"
+BASE = "https://mhjaso.com/apps/"
 REQUIRED = ["index.html", "turnera/index.html", "turnera/support/index.html", "turnera/privacy/index.html", "assets/styles.css"]
 ALLOWED_EMAILS = {"miguel.hernandezjaso@gmail.com"}
 SECRET = re.compile(r"(ghp_[A-Za-z0-9]{20,}|BEGIN [A-Z ]*PRIVATE KEY|Bearer\s+[A-Za-z0-9._-]{20,})")
@@ -64,7 +64,7 @@ for l in re.findall(r"\]\((?!https?:)([^)\s#]+)\)", readme):
     if not (ROOT / l).exists(): errors.append(f"README.md: broken local link {l}")
 
 if "--live" in sys.argv:
-    for url in sorted(u for u in live if u.startswith(("https://maquert.github.io/", "https://github.com/Maquert/"))):
+    for url in sorted(u for u in live if u.startswith(("https://mhjaso.com/", "https://github.com/Maquert/"))):
         try:
             code = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "site-check"}), timeout=20).status
         except Exception as e:

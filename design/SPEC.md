@@ -17,7 +17,7 @@ Real renders of the prototypes in `prototype/`, produced with a WebKit snapshot 
 
 ## Structure and URLs
 
-Reusable per-product path pattern, served by GitHub Pages at `https://maquert.github.io/mhjaso_public/`:
+Reusable per-product path pattern, served under the mhjaso site at `https://mhjaso.com/apps/`:
 
 | Page | Path |
 | --- | --- |
